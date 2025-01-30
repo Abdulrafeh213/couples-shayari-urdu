@@ -1,0 +1,46 @@
+name: couples_shayari_urdu
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.4.0-116.0.dev <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.6
+  get: 4.6.6
+  google_mobile_ads: ^4.0.0
+  url_launcher: ^6.2.5
+  share: ^2.0.4
+  flutter_svg: ^2.0.10+1
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: 3.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: Forte
+      fonts:
+        - asset: assets/fonts/FORTE.ttf
+          style: italic
+    - family: JameelNooriNastaleeq
+      fonts:
+        - asset: assets/fonts/JNS.ttf
+          style: italic
+    - family: JameelN
+      fonts:
+        - asset: assets/fonts/JameelNooriKasheeda.ttf
+          style: italic
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          style: italic
+
